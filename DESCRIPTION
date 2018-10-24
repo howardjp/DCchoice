@@ -8,8 +8,8 @@ Authors@R: c( person("Tomoaki", "Nakatani", role = c("aut",
         patches"), person("Kazuo", "Sato", role = "ctb", email =
         "satokazu@rakuno.ac.jp", comment = "theoretical part of the
         manual"))
-Depends: R (>= 3.1.0), stats, MASS, interval, Formula
-Suggests: Ecdat
+Depends: R (>= 3.1.0), stats, MASS, interval, Formula, foreach
+Suggests: Ecdat, doMC
 License: GPL (>= 2)
 Description: Functions for analyzing dichotomous choice contingent valuation (CV) data. It provides 
    functions for estimating parametric and nonparametric models for single-, one-and-one-half-, 
